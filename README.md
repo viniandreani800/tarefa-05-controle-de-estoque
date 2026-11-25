@@ -73,12 +73,3 @@ CREATE TABLE IF NOT EXISTS movimentacoes (
    ```bash
    python main.py
    ```
-
-## Capturas de Tela
-* Menu Principal: `tela-menu.png`
-* Cadastro de Produtos: `tela-produtos.png`
-* Registro de Movimentações: `tela-movimentacoes.png`
-* Consulta de Estoque e Relatórios: `tela-consulta.png`
-
-## Relato Detalhado de Uso do GitHub Copilot
-O GitHub Copilot foi utilizado no VS Code durante o desenvolvimento modular do sistema para acelerar a escrita de trechos repetitivos de interface em `tkinter`/`ttk`, sugerir estruturas de consultas SQL parametrizadas com `sqlite3` e apoiar na organização de funções auxiliares e validações de entrada. Todas as regras de negócio — como a exigência de `PRAGMA foreign_keys = ON`, o bloqueio de saídas maiores que o saldo disponível, a separação em módulos e os testes na interface gráfica — foram revisadas, testadas e ajustadas manualmente para atender integralmente aos requisitos da disciplina.
